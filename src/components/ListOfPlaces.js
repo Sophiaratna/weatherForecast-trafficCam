@@ -16,7 +16,7 @@ const ListOfPlaces = ({ data, selectedIndex, handleSelectIndex }) => {
             return (
               <option
                 value={index}
-              >{`Latitude: ${el.location.latitude}; Langitude: ${el.location.longitude}`}</option>
+              >{`Latitude: ${el.location.latitude}; Longitude: ${el.location.longitude}`}</option>
             );
           })}
       </select>

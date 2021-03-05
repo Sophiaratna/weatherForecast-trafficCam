@@ -60,13 +60,19 @@ const WeatherForecast = ({ dateTime, selectedData, convertDateTime }) => {
       });
       console.log(findForecast);
       setWeather(findForecast[0].forecast);
+    } else {
+      setWeather("");
     }
   }, [selectedData]);
 
   return (
     <div>
-      <h1>Weather Forecast here</h1>
-      <h3>{weather}</h3>
+      {weather !== "" && (
+        <>
+          <h1>Weather Forecast</h1>
+          <h3>{weather}</h3>
+        </>
+      )}
     </div>
   );
 };
