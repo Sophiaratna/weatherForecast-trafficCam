@@ -14,7 +14,7 @@ Basic MVP done for the project
 - If the user change date and time, user have to reselect the locations for the weather forecast and traffic cam data to show
 - After selection of any location, user is able to select other locations to view the data
 
-### Enhanccement:
+### Enhancement:
 
-- Reverse geocoding
+- Reverse geocoding to show human-readable address/ location
 - Styling of page
